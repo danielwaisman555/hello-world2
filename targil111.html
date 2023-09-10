@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sum of Two Numbers</title>
+</head>
+<body>
+    <h1>Sum of Two Numbers</h1>
+    <div style="display: inline-block;">
+        <input type="text" id="number1" placeholder="Enter the first number">
+        +
+        <input type="text" id="number2" placeholder="Enter the second number">
+        <button onclick="sum()">=</button>
+    </div>
+    <div style="display: inline-block; margin-left: 10px;">
+        <p>The result is: <span id="result"></span></p>
+    </div>
+
+    <script>
+        function sum() {
+            // Get the values from the inputs
+            var num1 = parseFloat(document.getElementById("number1").value);
+            var num2 = parseFloat(document.getElementById("number2").value);
+
+            // Check if the values are valid numbers
+           // if (!isNaN(num1) && !isNaN(num2)) {
+                // Perform the addition
+                var sum = num1 + num2;
+
+                // Display the result in the 'result' element
+                document.getElementById("result").textContent = sum;
+            } //else {
+                //alert("Please enter two valid numbers.");
+          //  }
+        //}
+    </script>
+</body>
+</html>
