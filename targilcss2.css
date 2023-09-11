@@ -1,0 +1,18 @@
+h1 {text-align: center;}
+h2 {text-align: center;}
+
+p {color: red;
+    
+}
+
+.colors {color:black;
+}
+#third{
+    color: green;
+   
+}
+div[title = "four"]{
+    color: blue;
+}
+
+*{text-align: center;}

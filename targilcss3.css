@@ -1,0 +1,26 @@
+div[title = "red"]{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+div[title = "blue"]
+{ height: 200px;
+    width: 300px;
+    background-color: blue;
+    }
+
+div[title ="orange"]
+{height: 200px;
+ width: 200px;
+background-color: orange;
+}
+div[title ="green"]{
+    height: 200px;
+    width: 300px;
+    background-color: green;
+    }
+div[title ="yellow"]{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
